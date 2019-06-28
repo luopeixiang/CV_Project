@@ -261,19 +261,32 @@ weighted avg       0.32      0.30      0.30     10000
 └── 实验报告.pdf					 # Markdown导出的pdf文件(便于查看)
 ```
 
-由于数据集比较大，因此我并没有将它放到提交文件里面。如果想要运行代码，可以从我的Github上下载：
+由于数据集比较大，因此我没有将它放到提交文件里面，而是将它上传到Github。如果想要运行代码，可以从Github上下载：
 
+```shell
+git clone https://github.com/luopeixiang/CV_Project.git
+```
 
+然后安装依赖：
 
+```shell
+cd CV_Project/code
+pip install -r requirement.txt
+```
 
+运行bow算法：
 
+```shell
+python bow.py
+```
 
+运行spm算法：
 
+```shell
+python spm.py
+```
 
-
-
-
-
+运行结束时会打印出前一部分给出的分类结果，不过整个过程需要很长时间，请耐心等候。
 
 ## 参考链接
 
